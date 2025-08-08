@@ -15,8 +15,16 @@ let name = "   luxxy   "
 // let newName = name.trim()
 // console.log(newName)
 
-let member = "btr"
-console.log(name.concat("  is a member of ", member, " Ok"))
-let colleague = "      not             "
-console.log(colleague)
-console.log(colleague.trim())
+// let member = "btr"
+// console.log(name.concat("  is a member of ", member, " Ok"))
+// let colleague = "      not             "
+// console.log(colleague)
+// console.log(colleague.trim())
+let fr = " juxxy" + " buxxy" + " nuxxy"
+console.log(fr[0])
+console.log(fr[1])
+console.log(fr[2])
+console.log(fr[3])
+console.log(fr[4])
+// fr[2] = i --> this is not possible
+console.log(fr)
