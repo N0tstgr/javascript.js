@@ -24,9 +24,9 @@
 //splice and slice
 
 
-let num4 = [1, 4, 6, 9, 5, 2, 5 , 2 , 1, 5 , 90,78]
+
 // let deletedValues = num4.splice(2, 5, 1000, 1034, 1235, 48954, 4854)
 // console.log(typeof deletedValues)
-
-num4.slice(2)
-console.log(num4)
+let num4 = [1, 4, 6, 9, 5, 2, 5 , 2 , 1, 5 , 90,78]
+let slicing = num4.slice(2,8)
+console.log(slicing)
