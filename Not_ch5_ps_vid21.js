@@ -28,11 +28,17 @@ const prompt  = require("prompt-sync")();
 // console.log(great)
 
 //Practice 4
-let f = [3, 5, 2, 6, 7, 8, 80,90]
-let great = f.map((g)=>{
-    console.log(g)
-    return g*g
-})
-console.log(great)
+// let f = [3, 5, 2, 6, 7, 8, 80,90]
+// let great = f.map((g)=>{
+//     console.log(g)
+//     return g*g
+// })
+// console.log(great)
 
 //Practice 5
+let f1 = [3, 5, 2, 4, 1]
+let great1 = f1.reduce((k1, k2)=>{
+
+    return k1 * k2
+})
+console.log(great1)
