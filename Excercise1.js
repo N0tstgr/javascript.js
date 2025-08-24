@@ -7,6 +7,10 @@ let guesses = 0
 while(true){
 
 let b = Number(prompt("Enter the number to be guessed  in range of (1-100! : "))
+
+if(b>100 || b<1|| isNaN(b)){
+    console.log("This is a invalid input, Enter again to match the given range : ")
+continue}
 guesses++
 
 
