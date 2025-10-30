@@ -10,7 +10,7 @@ second.innerHTML = "<i> hey this is italic </i>"
 '<i> hey this is italic </i>'
 second.outerHTML
 '<span id="second"><i> hey this is italic </i></span>'
-second.outerHTMl = "<div> ey </div>
+second.outerHTMl = "<div> ey </div>"
 
 second.outerHTMl = "<div> ey </div>"
 '<div> ey </div>'
