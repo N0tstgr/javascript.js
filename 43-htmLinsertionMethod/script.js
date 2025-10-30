@@ -1,2 +1,2 @@
-let a =   document.getElementByTagName('section')[0]
+let a =   document.getElementByTagName('div')[0]
 a.innerHTML = a.innerHTML + '<h1>Hello World!</h1>';
