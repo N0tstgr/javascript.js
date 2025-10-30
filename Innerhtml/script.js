@@ -16,4 +16,5 @@
 // '<div> ey </div>'
 
 
-console.log(document.body.textContent)
+// console.log(document.body.textContent)
+// first.hidden = false
