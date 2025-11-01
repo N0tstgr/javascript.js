@@ -3,5 +3,7 @@ let a =   document.getElementByTagName('div')[0]
 
 let div = document.createElement('div');
 div.innerhtml = '<h1> hello vikash the trillionaire </h1>';
+div.innerhtml = '<h2>  embedded system</h2>';
+
 a.append(div)
 
