@@ -1,6 +1,6 @@
 let x = function(e){
     console.log(e.target)
-    console.log(e)
+    console.log(e.type, e.clientx, e.clinty )
 alert("Greatness is loading")}
 
 let y = function(e){
