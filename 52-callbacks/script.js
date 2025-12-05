@@ -7,10 +7,17 @@
 
 //Asynchronous programming
 
-console.log("Start")
-setTimeout(function(){
-    console.log("this is to be run after 5 seconds")
-},5000
+// console.log("Start")
+// setTimeout(function(){
+//     console.log("this is to be run after 5 seconds")
+// },5000
 
-)
-console.log("this is the ending")
+// )
+// console.log("this is the ending")
+
+//Call backs
+function loadScript(src){
+    var script = document.createElement("script");
+    script.src = src;
+    document.body.appendChild(script);
+}
